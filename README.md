@@ -31,5 +31,10 @@ and IDs for the value in the row below (row 1). For example view 'MIPS_to_RRESv4
 References 
 --------------
 
+Güldener, U., Mannhaupt, G., Münsterkötter, M., Haase, D., Oesterheld, M., Stümpflen, V., Mewes, H.W. and Adam, G., 2006. FGDB: a comprehensive fungal genome resource on the plant pathogen Fusarium graminearum. Nucleic acids research, 34(suppl_1), pp.D456-D458.
+
+King, R., Urban, M., Hammond-Kosack, M.C., Hassani-Pak, K. and Hammond-Kosack, K.E., 2015. The completed genome sequence of the pathogenic ascomycete fungus Fusarium graminearum. BMC genomics, 16(1), p.544.
+
+King, R., Urban, M. and Hammond-Kosack, K.E., 2017. Annotation of Fusarium graminearum (PH-1) version 5.0. Genome announcements, 5(2).
 
 Wong, P., Walter, M., Lee, W., Mannhaupt, G., Münsterkötter, M., Mewes, H.W., Adam, G. and Güldener, U., 2010. FGDB: revisiting the genome annotation of the plant pathogen Fusarium graminearum. Nucleic acids research, 39(suppl_1), pp.D637-D639.
