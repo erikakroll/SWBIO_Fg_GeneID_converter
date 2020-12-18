@@ -26,7 +26,10 @@ Additional Analysis
 The dictionaries in this script were created using the python script assemblyIDs_to_dict.py
 
 This script can be modified to read a CSV file containing IDs for the key in the top row (row 0)
-and IDs for the value in the row below (row 1). For example view 'MIPS_to_RRESv4.csv'
+and IDs for the value in the row below (row 1). For example view 'MIPS_to_RRESv4_test.csv'
+
+The script test.py assesses the functionality of the dictionary by having a gene ID converted into a another 
+and back again using the dictionaries in Fg_gene_converter.py . 
 
 References 
 --------------
