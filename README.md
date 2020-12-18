@@ -12,9 +12,9 @@ To run:
 
 **NOTE - IDs need to be entered in the following formats:**
 
-v 3.2 IDs - FGSG_xxxxx
-v 4.0 IDs - FFGRES_xxxxx
-v 5.0 IDs - FgramPH1_xxtxxxx
+-v 3.2 IDs as FGSG_xxxxx
+-v 4.0 IDs as FFGRES_xxxxx
+-v 5.0 IDs as FgramPH1_xxtxxxx
 
 5. The gene IDs from the two other assemblies should then be printed adjacent to the initial entry
 6. The assembly to which the ID belongs to is printed before both the input and output IDs
