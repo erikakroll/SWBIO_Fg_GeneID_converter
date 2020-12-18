@@ -16,7 +16,7 @@ To run:
 - v 4.0 IDs as FFGRES_xxxxx
 - v 5.0 IDs as FgramPH1_xxtxxxx
 
-5. The gene IDs from the two other assemblies should then be printed adjacent to the initial entry
+5. The gene IDs from the two other assemblies should then be printed as the output adjacent to the initial entry (input)
 6. The assembly to which the ID belongs to is printed before both the input and output IDs
 
 
