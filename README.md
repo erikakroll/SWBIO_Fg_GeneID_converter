@@ -17,7 +17,21 @@ To run:
 - v 5.0 IDs as FgramPH1_xxtxxxx
 
 5. The gene IDs from the two other assemblies should then be printed as the output adjacent to the initial entry (input)
-6. The assembly to which the ID belongs to is printed before both the input and output IDs
+
+6. The assembly to which the ID belongs to is printed before both the input and output IDs. 
+
+Example Output
+---------------
+
+Entry: FgramPH1_01t00025
+
+
+Output:
+
+RRESv5.0 ID:FgramPH1_01t00025 RRESv4.0 ID: FGRRES_11605
+
+RRESv5.0 ID:FgramPH1_01t00025 MIPS v3.2 ID: FGSG_11605
+
 
 
 Additional Analysis
