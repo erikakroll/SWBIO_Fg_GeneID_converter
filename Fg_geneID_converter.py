@@ -2,7 +2,7 @@
 
 # Dictionaries were made using assembly_dict.py which takes a CSV file turns it into a dataframe, removes any columns starting with #N/A and converts it into a dictionary
 
-# nan imported from package numpy as #N/A in values was converted to nan when creating dictionaries using assembly_dict.py
+# nan is imported from package numpy as #N/A in values was converted to nan when creating dictionaries using assembly_dict.py
 
 from numpy import nan
 
@@ -49,25 +49,25 @@ for rresv5 in RRESv5_to_MIPS_dict:
 
 #print(RRESv4_to_RRESv5_dict) 
 
-###Loops to search for the right Gene ids in the right library###
+###Loops to search for the Gene IDs in the right dictionaries###
 
 # after first independently creating loops for each dictionary with their own independent input lists 
 # for example: geneid_in_1 = ["FgramPH1_01t00005", "FgramPH1_01t00003"] 
-# the loops were then modified to have the same list as input. This allowed mixed gene ID entries.
+# the loops were then modified to have the same list as an input. This allowed mixed gene ID entries.
 # example: geneid_in = ["FgramPH1_01t00005", "FgramPH1_01t00003", "FGSG_11606", "FGRRES_11606" ] 
-# loops defined as function gene_procesing so that 
+# The loops were then defined as the function 'gene_procesing' so that 
 # if __name__ == '__main__':
 # gene_processing(input()) enables user to input gene IDs in terminal 
 
 
 def gene_processing(geneid_in):
 
-    geneid_in = geneid_in.split(",") #.split(",") requires input to be provided seperated as a comma
+    geneid_in = geneid_in.split(",") #.split(",") requires input to be provided seperated by a comma
     for geneid in geneid_in: 
         
 #'if loop' created so that only if the string contains FFGRES (from assembly v 5) 
 # at the start will it be iterated through the diciontaries. This 'if loop' is repeated
-# twice more to iterate IDs that start with FGSG ( from assembly  v3.2) and Fgram (assembly v4)
+# twice more to iterate IDs that start with FGSG ( from assembly  v3.2) and Fgram (assembly v4).
 #input and output are printed along with the assembly they have come from
                  
         if geneid.startswith('FGRRES'): 
@@ -98,7 +98,7 @@ def gene_processing(geneid_in):
             print(f"MIPS ID:{geneid}  RRESv4 ID: {geneid_out_Ma}")
             print(f"MIPS ID:{geneid}  RRESv5 ID: {geneid_out_Mb}")
             
-   #If _name_ == ‘_main_’ runs the function ‘gene_processing’ if it was run directly          
+   #If _name_ == ‘_main_’ runs the function ‘gene_processing’,if it was run directly          
    # geneid_in = function(input("Message : ")) 
    # this code ensures that when the function is run a message will be printed before the space 
    # where the user types the input 

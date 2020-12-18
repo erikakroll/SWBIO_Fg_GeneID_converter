@@ -1,7 +1,7 @@
 *Fusarium graminearum* PH-1 gene ID converter 
 ==============
 
-This is a python script which can convert gene IDs from and between the *F. graminearium* PH-1 assemblies v. 3.2 (Wong et al., 2011; Güldener et al., 2006), v. 4 (King et al., 2015) and v 5 (King et al., 2017). In the output and script these assemblies are referred to as MIPS v. 3.2, RRES v. 4 and RRES v. 4 repectively. This is in reference to the institutes that created/developed the assemblies ie. the Munich Information Services for Protein Sequences (MIPS) and Rothamsted Research (RRES).
+This is a python script which can convert gene IDs from and between the *F. graminearium* PH-1 assemblies v. 3.2 (Wong et al., 2011; Güldener et al., 2006), v. 4 (King et al., 2015) and v 5 (King et al., 2017). In the output and script these assemblies are referred to as MIPS v. 3.2, RRES v. 4 and RRES v. 4 . This is in reference to the institutes that created/developed the assemblies ie. the Munich Information Services for Protein Sequences (MIPS) and Rothamsted Research (RRES).
 
 To run:
 
@@ -25,8 +25,9 @@ Additional Analysis
 
 The dictionaries in this script were created using the python script assemblyIDs_to_dict.py
 
-This script can be modified to read a CSV file containing IDs for the key in the top row (row 0)
-and IDs for the value in the row below (row 1). For example view 'MIPS_to_RRESv4_test.csv'
+This script reads a CSV file containing IDs for the key in the top row (row 0)
+and IDs for the value in the row below (row 1). For an example view 'MIPS_to_RRESv4_test.csv' and run the 
+script assemblyIDs_to_dict.py . 
 
 The script test.py assesses the functionality of the dictionary by having a gene ID converted into a another 
 and back again using the dictionaries in Fg_gene_converter.py . 
