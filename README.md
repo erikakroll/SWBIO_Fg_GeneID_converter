@@ -1,7 +1,7 @@
 *Fusarium graminearum* PH-1 gene ID converter 
 ==============
 
-This is a python script which can convert gene IDs from and between the *F. graminearum* PH-1 assemblies v. 3.2 (Wong et al., 2011; Güldener et al., 2006), v. 4 (King et al., 2015) and v 5 (King et al., 2017). In the output and script these assemblies are referred to as MIPS v. 3.2, RRES v. 4 and RRES v. 4 . This is in reference to the institutes that created/developed the assemblies ie. the Munich Information Services for Protein Sequences (MIPS) and Rothamsted Research (RRES).
+This is a python script which can convert gene IDs from and between the *F. graminearum* PH-1 assemblies v. 3.2 (Wong et al., 2011; Güldener et al., 2006), v. 4 (King et al., 2015) and v. 5 (King et al., 2017). In the output and script these assemblies are referred to as MIPS v. 3.2, RRES v. 4 and RRES v. 4 . This is in reference to the institutes that created/developed the assemblies ie. the Munich Information Services for Protein Sequences (MIPS) and Rothamsted Research (RRES).
 
 To run:
 
@@ -20,7 +20,7 @@ To run:
 
 6. The assembly to which the ID belongs to is printed before both the input and output IDs. 
 
-7. If gene ID is absent from an assembly 'nan' is printed.
+7. If a gene ID is absent from an assembly 'nan' is printed.
 
 Example Output
 ---------------
