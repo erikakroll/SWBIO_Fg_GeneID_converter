@@ -1,9 +1,9 @@
 ##### Dictionary test ###
 
-# This script takes a gene ID from one assembly, converts it into another using a dictionary. This output is 
-# then interated through the dictionary going in the opposite direction. 
-# a statment of whether the final output is equal to the input gene ID is made
-# if the statement is true then true is printed
+# This script takes a gene ID from one assembly and converts it into another using a dictionary. 
+# This output is then iterated through the dictionary going in the opposite direction. 
+# A statment of whether the final output is equal to the input gene ID is made
+# If the statement is true then true is printed, if not then false is printed
 
 #This was done for every dictionary in Fg_geneID_converter.py# 
 
@@ -41,7 +41,7 @@ for rresv5 in RRESv5_to_MIPS_dict:
 
 geneid_in_4 = ["FGRRES_11641"]
 
-#print (geneid_4)
+
 
 for geneid_4 in geneid_in_4:
     
@@ -52,7 +52,7 @@ for geneid_4 in geneid_in_4:
 result_4a = RRESv5_to_RRESv4_dict[geneid_out_4a]
 result_4b = MIPS_to_RRESv4_dict[geneid_out_4b]
 
-#print(result)
+
 
 print(f"RRESv4 to RRESv5: {result_4a==geneid_4}")
 print(f"RRESv4 to MIPS: {result_4b==geneid_4}")
@@ -71,7 +71,7 @@ for geneid_5 in geneid_in_5:
 result_5a = RRESv4_to_RRESv5_dict[geneid_out_5a]
 result_5b = MIPS_to_RRESv5_dict[geneid_out_5b]
 
-#print(result)
+
 
 print(f"RRESv5 to RRESv4: {result_5a==geneid_5}")
 print(f"RRESv5 to MIPS: {result_5b==geneid_5}")

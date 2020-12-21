@@ -1,6 +1,6 @@
 ### Dictionaries###
 
-# Dictionaries were made using assembly_dict.py which takes a CSV file turns it into a dataframe, removes any columns starting with #N/A and converts it into a dictionary
+# Dictionaries were made using assembly_dict.py which takes a CSV file turns it into a dataframe, removes any columns starting with #N/A and converts the dataframe into a dictionary
 
 # nan is imported from package numpy as #N/A in values was converted to nan when creating dictionaries using assembly_dict.py
 
@@ -35,7 +35,7 @@ for rresv4 in RRESv4_to_MIPS_dict:
     mips = RRESv4_to_MIPS_dict[rresv4]
     MIPS_to_RRESv4_dict[mips] = rresv4
     
-#print(MIPS_to_RRESv4_dict)
+
 
 ##FLip MIPS to RRESv5###
 
@@ -47,7 +47,7 @@ for rresv5 in RRESv5_to_MIPS_dict:
     MIPS_to_RRESv5_dict[mips] = rresv5
 
 
-#print(RRESv4_to_RRESv5_dict) 
+# 
 
 ###Loops to search for the Gene IDs in the right dictionaries###
 
@@ -57,7 +57,7 @@ for rresv5 in RRESv5_to_MIPS_dict:
 # example: geneid_in = ["FgramPH1_01t00005", "FgramPH1_01t00003", "FGSG_11606", "FGRRES_11606" ] 
 # The loops were then defined as the function 'gene_procesing' so that 
 # if __name__ == '__main__':
-# gene_processing(input()) enables user to input gene IDs in terminal 
+# gene_processing(input()) enables user to input gene IDs when running the script terminal 
 
 
 def gene_processing(geneid_in):
@@ -66,7 +66,7 @@ def gene_processing(geneid_in):
     for geneid in geneid_in: 
         
 #'if loop' created so that only if the string contains FFGRES (from assembly v 5) 
-# at the start will it be iterated through the diciontaries. This 'if loop' is repeated
+# at the start it will be iterated through the diciontaries using assembly v5 as the key. This 'if loop' is repeated
 # twice more to iterate IDs that start with FGSG ( from assembly  v3.2) and Fgram (assembly v4).
 #input and output are printed along with the assembly they have come from
                  
